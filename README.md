@@ -22,7 +22,11 @@ cd BoxCars
 * (Optional, but recommended) Create virtual environment for this project - you can use **virtualenvwrapper** or following commands. **IMPORTANT NOTE:** this project is using **Python3**.
 
 ```bash
-virtuenv -p /usr/bin/python3 boxcars_venv
+mkvirtualenv -p /usr/bin/python3 boxcars_venv
+workon boxcars_venv
+
+or
+virtualenv -p /usr/bin/python3 boxcars_venv
 source boxcars_venv/bin/activate
 ```
 
